@@ -1,6 +1,6 @@
 body {
     
-    background-color: #000;
+   background-image: url(img/Fondo.png);
     /*background: linear-gradient(to left, #000000, #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #fff;
     font-family: 'Open Sans', sans-serif;
@@ -27,6 +27,7 @@ img {
     font-size: 15px;
     letter-spacing: 2px;   
     margin: 0;
+    
 }
 
 a.profile:hover{
@@ -71,6 +72,7 @@ a.profile:hover{
 a {
     color: white;
     transition: color 0.5s;
+    background: #1868B7;
 }
 
 a.links:hover {
@@ -96,3 +98,6 @@ a i:hover{
     font-weight: bold;
 }
 
+h2{
+    margin-top: -20px;
+}
